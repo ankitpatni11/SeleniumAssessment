@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<WebElements>    
+      <username>//*[@id='username']</username>  
+      <password>//*[@id='password']</password> 
+      <login>//*[@id='Login']</login>     
+      <myAccountsTab>//*[@title='My Accounts Tab']</myAccountsTab>
+      <new>//input[@type='button' and @value='New']</new>
+      <itarget>itarget</itarget>
+      <recordType>//*[@id="recordTypeSelect"]</recordType>
+      <continue>//input[@type='button' and @value='Continue']</continue>
+
+	<FirstName>//*[@id="reqreqi-value:string:Account:FirstName"]</FirstName>
+	<LastName>//*[@id="reqreqi-value:string:Account:LastName"]</LastName>
+	<hcpType>//*[@id="reqreqi-value:picklist:Account:Network_HCP_Type__c"]</hcpType>
+	<CountryCode>//*[@id="reqreqi-value:picklist:Account:Country_Code_BI__c"]</CountryCode>
+	<SpecialtyBI>//*[@id="reqreqi-value:picklist:Account:Specialty_1_vod__c"]</SpecialtyBI>
+	<Addressline1>//*[@id="reqreqi-value:string:Address_vod__c:Name"]</Addressline1>
+	<Addressline2>//*[@id="i-value:string:Address_vod__c:Address_line_2_vod__c"]</Addressline2>
+	<PostalCode>//*[@id="reqreqi-value:string:Address_vod__c:Zip_vod__c"]</PostalCode>	
+	<City>//*[@id="reqreqi-value:string:Address_vod__c:City_vod__c"]</City>
+	<Country>//*[@id="i-value:picklist:Address_vod__c:Country_vod__c"]</Country>
+	<State>//*[@id="reqreqi-value:picklist:Address_vod__c:State_vod__c"]</State>  
+	<Phone1>//*[@id="reqreqi-value:phone:Address_vod__c:Phone_vod__c"]</Phone1>
+	<Submit>//*[@id="submitDcrButton"]</Submit>
+	 <DataChangeRequest>//*[@title='Data Change Requests Tab']</DataChangeRequest>
+	<DARLink>//*[@id='ext-gen11']/div[2]/table/tbody/tr/td[3]</DARLink>
+
+</WebElements>      
+     
